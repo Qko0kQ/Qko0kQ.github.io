@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>About Me</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="/" class="nav-link">
+              Home
+            </a>
+          </li>
+          <li class="nav-item current">
+            <a href="about.html" class="nav-link">
+              About Me
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="life.html" class="nav-link">
+              My Life
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">
+              How To Reach Me
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="about">
+      <h1 class="lg-heading">
+        About
+        <span class="text-secondary">Me</span>
+      </h1>
+      <h2 class="sm-heading">
+        Let me tell you a few things...
+      </h2>
+      <div class="about-info">
+        <img src="img/Kun Qiao.jpg" alt="Kun Qiao" class="bio-img" />
+        <div class="bio">
+          <h3 class="text-secondary">
+            BIO
+          </h3>
+          <p>
+            Master in Electrical & Computer Engineering , UIUC<br />I’m
+            passionate about the impact my skills can have in the real world,
+            and firmly believe that I can create innovative solutions to
+            business processes and problems which will ultimately lead to a
+            better user experience.<br />
+            Actively seeking for 2019 summer SDE Internship.<br />
+            Moving on, step by step.
+          </p>
+        </div>
+        <div class="job job-1">
+          <h3>FengCar Technology Ltd.</h3>
+          <h6>Web Backend Intern</h6>
+          <p>
+            Developed a module to track user behavior for web-service backend in
+            python, Django.<br />
+            Established ORM model for many-to-many relationships, implemented a
+            follow-friends function with AJAX.<br />
+            De-normalized the database with Signal module to improve the
+            efficiency of QuerySet.<br />
+            Cached the ranking of user views with Redis in Django
+          </p>
+        </div>
+        <div class="job job-2">
+          <h3>Aeris Cleantec AG</h3>
+          <h6>R&D Intern</h6>
+          <p>
+            Participated in developing an intelligent air purifier at R&D
+            department.<br />Processed PM2.5 sensor data with Python, and
+            trained a model using SVM algorithm to predict PM2.5 concentration,
+            improving sensor accuracy from 85.2% to 94.8%.<br />
+            Updated EEPROM headers in firmware with C++ based on Particle
+            platform, achieving the identification of data error and version
+            control.<br />
+            Calculated air purifier filter cores’ lifetime in web backend with
+            Java.
+          </p>
+        </div>
+        <div class="job job-3">
+          <h3>BUPT Web Search Lab</h3>
+          <h6>Research Student</h6>
+          <p>
+            Designed and implemented web crawler to crawl millions of Taobao
+            product data using Java, JSoup, Proxy.<br />
+            Designed and developed Search Ads workflow which support: Query
+            understanding, Ads selection from inverted index, Ads filter, Ads
+            ranking, Ads pricing, Ads allocation using Java Servlet, Jetty,
+            MySQL-JDBC, MemCached.<br />
+            Predicted click probability with features generated from simulated
+            search log data using Python and Spark MLlib, accuracy: 93.76%.<br />
+            Implemented Query rewrite with word2vector algorithm using Python
+            and Spark MLlib.<br />
+            Adopted Page Rank to display top K ads to users.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer id="main-footer">
+      Copyright &copy; 2019
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
